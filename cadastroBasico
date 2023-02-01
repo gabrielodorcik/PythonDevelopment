@@ -1,0 +1,107 @@
+#Sistema de cadastro criado por mim 01/02/23
+#criado por gabriel odorcik
+
+print('\nSistema de Cadastro "Basico"')
+print('')
+
+print('Olá! Meu nome é Bot. Hoje vamos efetuar o seu cadastro para o nosso programa!')
+print('Lembrando não existe verificação ainda!')
+print('')
+
+nome_cli = (input('Digite o seu nome: \n' ))
+print('')
+
+sobre_cli = (input('Digite o seu sobrenome: \n'))
+print('')
+
+email_cli = (input('Digite o seu email: \n'))
+print('')
+
+tel_cli = (input('Telefone para contato: \n'))
+print('')
+#declarando os inputs de nome, sobrenome, email e telefone
+
+print('Vamos para o próximo passo! Atenção esta informações vão pesar lá na frente!!')
+print('')
+
+idade_cli = (input('Você tem 18 anos, ou mais? sim ou não\n'))
+print('')
+
+if idade_cli == 'sim':
+    print('Certo! Apenas mais duas!\n')
+    
+else:
+    print('Não tem problema, você não poderá se increver com os nossos estágios. Mas temos vagas de Jovem Aprendiz!\n')
+
+print('')
+
+cursando_facul = (input('Você está cursando ou terminou um curso superior? sim ou não\n'))
+
+if cursando_facul == 'sim':
+    print('Certo! Só mais uma!\n')
+else:
+    print('Humm, isto é preocupante, mas veremos o que fazer para te ajudar!!\n')
+
+print('')
+
+interesse_estagio = (input('Você tem disponibilidade em estagiar com nossa empresas parceiras? sim ou não\n'))
+
+if interesse_estagio == 'sim':
+    print('Certo! Muito obigado pelas respostas!\n')
+else:
+    print('Tudo bem, podemos te encaminhar a outras vagas se for necessário!\n')
+
+print('')
+#declarando os inputs com condições, mas nada que termine o programa
+
+print('Ótimo, agora que já sabemos que tem interesse e se encaixa em nosso requisitos. \n')
+
+print('')
+
+info_cli = (input('Qual é a área de interesse? Digite sobre.\n'))
+
+print('')
+
+habili_cli = (input('Quais são as suas habilidades? digite sobre elas.\n'))
+
+print('')
+
+pessoal_cli = (input('Agora fale um pouco sobre você! Adorariamos conhecer mais sobre você! :)\n'))
+
+print('')
+#mais alguns inputs para cohecer mais o cliente
+
+print('Muito obrigado! Vamos entrar em contato e avisar sobre as próxima etapas!\n')
+
+print('Fique agora com uma cópia de suas respostas! O Bot diz "Obrigado!" :)\n ')
+
+print('')
+
+print(nome_cli, sobre_cli)
+print(email_cli)
+print(tel_cli)
+print('')
+
+print('Maior de idade \n', idade_cli)
+print('Cursando ou Cursou \n', cursando_facul)
+print('Disponivel \n', interesse_estagio)
+print('')
+
+print('Informações')
+print('')
+
+print(info_cli)
+print('')
+
+print('Habilidades')
+print('')
+
+print(habili_cli)
+print('')
+
+print('Sobre')
+print('')
+
+print(pessoal_cli)
+#ao final alguns prints para mostrar as informações ao clientes
+#final do código
